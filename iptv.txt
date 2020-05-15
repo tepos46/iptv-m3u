@@ -84,5 +84,21 @@ http://210.210.155.35/qwr9ew/s/s33/01.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Korean" tvg-logo="https://i.imgur.com/S1YWrNd.jpg" group-title="",SBS Star
 https://streaming-a-802.cdn.nextologies.com/SBS_18/playlist.m3u8
-#EXTINF:-1,METRO TV
-http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8
+
+#EXTM3U
+
+#EXTINF:-1 tvg-id="2" tvg-logo="http://i.imgur.com/asfyrTm.png" tvh-chnum="1" tvh-tags="SBS Plus",SBS Plus
+http://211.245.55.198:1024/m2u/239.192.49.7:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208\
+00&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webmm67
+
+#EXTINF:-1 tvg-id="87" tvg-logo="http://i.imgur.com/j1vHAu6.png" tvh-chnum="122" tvh-tags="SBS Sports",SBS Sports
+http://211.245.55.198:1024/m2u/239.192.67.130:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-id="97" tvg-logo="http://i.imgur.com/HdS0GNV.png" tvh-chnum="131" tvh-tags="SBSGOLF",SBS GOLF
+http://211.245.55.198:1024/m2u/239.192.57.5:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-id="98" tvg-logo="http://i.imgur.com/Bnw7O5U.png" tvh-chnum="132" tvh-tags="JTBC Golf",JTBC GOLF
+http://211.245.55.198:1024/m2u/239.192.59.5:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-id="99" tvg-logo="http://i.imgur.com/3VlCrJ7.png" tvh-chnum="133" tvh-tags="",Golf Channel Korea
+http://211.245.55.198:1024/m2u/239.192.69.102:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
