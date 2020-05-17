@@ -7,6 +7,28 @@ http://211.245.55.198:1024/m2u/239.192.67.165:49220
 #EXTINF:-1 tvg-logo="" ,NHK WORLD
 http://210.210.155.35/uq2663/h/h23/index1.m3u8
 
+EXTINF:0,KBS1 (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.100:49220
+
+#EXTM3U
+#EXTINF:0,SBS GOLF (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.164:49220
+
+#EXTINF:0,KBS2 (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.99:49220
+
 #EXTINF:-1,METRO TV
 http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8
 
@@ -18,6 +40,30 @@ http://45.126.83.51/uq2663/h/h37/01.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" ,  CINEMA WORLD
 http://45.126.83.51/uq2663/h/h04/index2.m3u8
+
+#EXTINF:-1,|USA| CNN HD
+http://iptv8.premium-stv.com:2052/SOURCEUSAPRO1d/687616d9712@/1819
+
+#EXTINF:-1,MYHD: MBC Drama HD
+http://4kiptv.vip:25461/7944767063/JQFhkFROBC/25518
+
+#EXTINF:-1,KBS DRAMA
+http://1.221.108.146:9981/stream/channelid/1546503169
+
+#EXTINF:-1,|US| STARZ CINEMA HD
+http://panel.restpremium.cf:8080/serverbr/0392332904/77015
+
+#EXTINF:-1 tvg-id="25" tvg-logo="http://i.imgur.com/6ORm0Rz.png" tvh-chnum="25" tvh-tags="K HOME SHOP",K HOME SHOP
+http://211.245.55.198:1024/m2u/239.192.66.17:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-id="32" tvg-logo="http://i.imgur.com/VBMFcZ3.png" tvh-chnum="32" tvh-tags="MBC DRAMA",MBC DRAMA
+http://211.245.55.198:1024/m2u/239.192.48.6:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-logo="cnn international"  group-title="News",CNN International
+http://203.153.218.28:9981/stream/channelid/1328589592?ticket=3A77BAE803C77F261879F637E4B795AB373D238F&profile=pass
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Korean" tvg-logo="https://i.imgur.com/jgexArm.png" group-title="",YTN
+http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/chunklist_b2592000.m3u8
 
 #EXTINF:-1 tvg-logo="http://cdn2.tstatic.net/makassar/foto/bank/images/thrill1_20160505_105220.jpg" ,  THRILL
 http://210.210.155.35:80/session/c8a974dc-7e3d-11e8-bf09-b82a72d63267/qwr9ew/s/s34/01.m3u8
@@ -39,24 +85,6 @@ http://210.210.155.35/qwr9ew/s/s33/01.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Korean" tvg-logo="https://i.imgur.com/S1YWrNd.jpg" group-title="",SBS Star
 https://streaming-a-802.cdn.nextologies.com/SBS_18/playlist.m3u8
-
-#EXTINF:-1 tvg-id="218" tvg-logo="http://i.imgur.com/ByeeX5e.png" tvh-chnum="410" tvh-tags="", YTN
-http://211.245.55.198:22515/m2u/239.192.47.7:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
-
-#EXTINF:-1 tvg-id="113" tvg-logo="http://i.imgur.com/RxsYny9.png" tvh-chnum="158" tvh-tags="",CNN International
-http://211.245.55.198:1024/m2u/239.192.69.15:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
-
-#EXTINF:-1 tvg-id="29" tvg-logo="http://i.imgur.com/0Y0pRW4.png" tvh-chnum="29" tvh-tags="GS MY SHOP",GS MY SHOP
-http://211.245.55.198:1024/m2u/239.192.66.4:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
-
-#EXTINF:-1 tvg-id="30" tvg-logo="http://i.imgur.com/CrLMIEQ.png" tvh-chnum="30" tvh-tags="KBS DRAMA",KBS DRAMA
-http://211.245.55.198:1024/m2u/239.192.49.6:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
-
-#EXTINF:-1 tvg-id="31" tvg-logo="http://i.imgur.com/COo8Bcm.png" tvh-chnum="31" tvh-tags="HD HOME SHOP PLUS",HD HOME SHOP PLUS
-http://211.245.55.198:1024/m2u/239.192.69.110:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
-
-#EXTINF:-1 tvg-id="32" tvg-logo="http://i.imgur.com/VBMFcZ3.png" tvh-chnum="32" tvh-tags="MBC DRAMA",MBC DRAMA
-http://211.245.55.198:1024/m2u/239.192.48.6:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
 
 #EXTINF:-1 tvg-id="85" tvg-logo="http://i.imgur.com/cIpIf6b.png" tvh-chnum="120" tvh-tags="SPOTV",SPOTV
 http://211.245.55.198:1024/m2u/239.192.67.133:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
