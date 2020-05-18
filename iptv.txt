@@ -42,6 +42,18 @@ http://45.126.83.51/uq2663/h/h04/index2.m3u8
 #EXTINF:-1,|USA| CNN HD
 http://iptv8.premium-stv.com:2052/SOURCEUSAPRO1d/687616d9712@/1819
 
+#EXTINF:-1,KBS DRAMA
+http://1.221.108.146:9981/stream/channelid/1546503169
+
+#EXTINF:-1,MBC Drama
+http://1.221.108.146:9981/stream/channelid/2062762984
+
+#EXTINF:-1,O tvN
+http://1.221.108.146:9981/stream/channelid/1191747469
+
+#EXTINF:-1,JTBC골프
+http://1.221.108.146:9981/stream/channelid/1523252136
+
 #EXTINF:-1 tvg-id="25" tvg-logo="http://i.imgur.com/6ORm0Rz.png" tvh-chnum="25" tvh-tags="K HOME SHOP",K HOME SHOP
 http://211.245.55.198:1024/m2u/239.192.66.17:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
 
@@ -85,13 +97,5 @@ http://211.245.55.198:1024/m2u/239.192.67.133:49220&VideoCodec=h264&AudioCodec=m
 #EXTINF:-1 tvg-id="86" tvg-logo="http://i.imgur.com/xspD7UE.png" tvh-chnum="121" tvh-tags="KBS N Sports",KBS N Sports
 http://211.245.55.198:1024/m2u/239.192.67.132:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
 
-#EXTINF:-1 tvg-id="" tvg-name="Star Chinese Movies" tvg-logo="https://www.indihome.co.id/assets/images/channels/Minipack/Indimovie-1/images/IndiMovie-1-75rb_11.png" group-title="Movie",Star Chinese Movies
-http://mantul.biz.id:8888/live/r432/432r/18.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Star Chinese Movies FHD" tvg-logo="https://mncvision.id/userfiles/image/channel/channel_18.jpg" group-title="FHD",Star Chinese Movies FHD
-http://mantul.biz.id:8888/live/r432/432r/19.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Red by HBO" tvg-logo="https://assetsmysky.blob.core.windows.net/assetsmysky/production/plans-and-bundles/1443770018_screen-red-sd-new.png" group-title="Movie",Red by HBO
-http://mantul.biz.id:8888/live/r432/432r/242.m3u8
 
 
