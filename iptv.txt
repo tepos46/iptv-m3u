@@ -4,8 +4,6 @@
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.67.165:49220
-#EXTINF:-1 tvg-logo="" ,NHK WORLD
-http://210.210.155.35/uq2663/h/h23/index1.m3u8
 
 EXTINF:0,KBS1 (HEVC)
 #EXTVLCOPT:network-caching=1000
@@ -28,6 +26,9 @@ http://211.245.55.198:1024/m2u/239.192.67.164:49220
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.67.99:49220
+
+#EXTINF:-1 tvg-logo="" ,NHK WORLD
+http://210.210.155.35/uq2663/h/h23/index1.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" , KIX
 http://45.126.83.51/uq2663/h/h07/01.m3u8
@@ -77,6 +78,15 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/pla
 
 #EXTINF:-1 tvg-logo="discovery channel"  group-title="Knowledge",Discovery Channel
 http://203.153.218.28:9981/stream/channelid/1151931232?ticket=2B28441BA5F75B65F81562F9A8DB635E8DE08CF5&profile=pass
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Chinese Movies" tvg-logo="https://www.indihome.co.id/assets/images/channels/Minipack/Indimovie-1/images/IndiMovie-1-75rb_11.png" group-title="Movie",Star Chinese Movies
+http://mantul.biz.id:8888/live/r432/432r/18.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Chinese Movies FHD" tvg-logo="https://mncvision.id/userfiles/image/channel/channel_18.jpg" group-title="FHD",Star Chinese Movies FHD
+http://mantul.biz.id:8888/live/r432/432r/19.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Red by HBO" tvg-logo="https://assetsmysky.blob.core.windows.net/assetsmysky/production/plans-and-bundles/1443770018_screen-red-sd-new.png" group-title="Movie",Red by HBO
+http://mantul.biz.id:8888/live/r432/432r/242.m3u8
 
 #EXTINF:-1 tvg-id="85" tvg-logo="http://i.imgur.com/cIpIf6b.png" tvh-chnum="120" tvh-tags="SPOTV",SPOTV
 http://211.245.55.198:1024/m2u/239.192.67.133:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
